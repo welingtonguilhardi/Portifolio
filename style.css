@@ -326,3 +326,83 @@ background-color:rgba(5, 5, 5, 0.8);
     visibility: visible;
 
 }
+
+
+.sessao-contato{
+    width: 100%;
+    height: 100vh;
+    background-color: #272727;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.contato-wrapper{
+    background-color: white;
+    width: 100vh;
+    height: 85vh;
+    box-shadow: 0 2rem 3rem rgba(0,0,0,0.5);
+}
+.contato-wrapper h1{
+    display:flex;
+    font-family: "Work Sans" ;
+    color: #272727;
+    font-size: 3rem;
+    font-weight: lighter;
+    justify-content: center;
+    
+}
+
+
+.sessao-contato form{
+    display: flex;
+    
+    flex-direction: column;
+    padding:1rem ;
+    margin: 1rem;
+    margin-left: 20%;
+    
+    
+    
+}
+.sessao-contato button{
+    margin-right: 15vh;
+    margin-left: -3vh;
+}
+
+
+
+
+.input-group{
+    position: relative;
+    padding: 1.2rem;
+    
+   
+}
+
+.field{
+    
+    background:transparent;
+    border:none;
+    width: 20rem;
+    height:3rem ;
+    font-size: 1.5;
+    border-bottom: 1.5px dashed #636363;
+    outline: none;
+    margin: 1rem 0;
+    
+}
+.field-label{
+    position:absolute;
+    left: 0;
+    top: 2rem;
+    font-size: 1.2;
+    transition: all 0.8s;
+}
+.field:focus ~ label{
+    top: 0;
+    font-size:1rem ;
+}
+.field:focus{
+    border-bottom: solid 1px;
+}
