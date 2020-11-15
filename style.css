@@ -133,7 +133,7 @@ background-color:rgba(5, 5, 5, 0.8);
 .sidebar{
     width: 20rem;
     height: 100vh;
-    background-color:rgba(5, 5, 5,0.6);
+    background-color:rgba(5, 5, 5,0.8);
     position: fixed;
     top: 0;
     right: -20rem;
@@ -148,12 +148,13 @@ background-color:rgba(5, 5, 5, 0.8);
     top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
+   
     
 }
 .menu-item{text-align: center;}
 .menu-link{font-family:Arial, Helvetica, sans-serif;
            font-size: 2rem;
-           color: #000000;
+           color:#ff1310;
            transition: 1s;
                             }
            
